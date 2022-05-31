@@ -6,7 +6,7 @@ interface HomeProps {}
 const Home: FC<HomeProps> = () => {
   return (
     <div className={styles.Home}>
-
+      Home
     </div>
   )
 }

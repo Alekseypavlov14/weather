@@ -1,0 +1,41 @@
+.Footer {
+  background: var(--blue-600);
+  width: 100%;
+  padding: 40px 0px 10px 0px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--white);
+}
+
+.Title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.Columns {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.Column {
+  flex: 1 0 auto;
+}
+
+.Headline {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Rows {
+  margin-top: 10px;
+}
+
+.Row {
+  font-size: 16px;
+}
+
+.Copyright {
+  margin-top: 34px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}

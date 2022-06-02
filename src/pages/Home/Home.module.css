@@ -4,3 +4,12 @@
   background-color: var(--blue-600);
   padding: 40px 0px;
 }
+
+.ForecastResult {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}

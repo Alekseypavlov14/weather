@@ -12,3 +12,5 @@ root.render(
     <App />
   </React.StrictMode>
 )
+
+window.onerror = (e) => alert(e)

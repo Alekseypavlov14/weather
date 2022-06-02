@@ -1,5 +1,5 @@
 .Footer {
-  background: var(--blue-600);
+  background: var(--blue-500);
   width: 100%;
   padding: 40px 0px 10px 0px;
   font-family: 'Poppins', sans-serif;
@@ -14,6 +14,8 @@
   margin-top: 24px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .Column {
@@ -38,4 +40,11 @@
   text-align: center;
   font-size: 14px;
   font-weight: 300;
+}
+
+@media (max-width: 530px) {
+  .Footer {
+    padding-top: 20px;
+    text-align: center;
+  }
 }
